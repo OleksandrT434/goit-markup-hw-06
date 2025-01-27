@@ -373,6 +373,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -401,8 +402,11 @@ button{
     padding-bottom: 112px;
     }
 }
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi){
     .hero {
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
     padding-top: 236px;
     padding-bottom: 244px;
 }}

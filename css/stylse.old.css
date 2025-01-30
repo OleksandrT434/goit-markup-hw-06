@@ -547,8 +547,6 @@ button {
 .end-hero .container{
     display: flex;
     align-items: baseline;
-
-
 }
 .link {
     fill: #f4f4fd;

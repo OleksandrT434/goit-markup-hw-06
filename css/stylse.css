@@ -410,7 +410,7 @@ button{
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people.jpg);
+        url(../images/mobile@1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -440,7 +440,7 @@ button{
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/mobile@2x.png);
+            url(../images/mobile@2.jpg);
     }
 }
 
@@ -458,7 +458,10 @@ button{
     .hero {
         padding-top: 112px;
         padding-bottom: 112px;
-    }
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/tablet@1jpg.jpg);
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -468,9 +471,9 @@ button{
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/tablet@bg2.jpg);
+            url(../images/tablet@2.jpg);
     }
-}
+}}
 
 @media screen and (min-width: 1158px) {
     .hero {

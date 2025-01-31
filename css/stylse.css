@@ -482,6 +482,9 @@ button{
         background-repeat: no-repeat;
         max-width: 1440px;
     }
+    .title-hero {
+        margin-bottom: 48px;
+    }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
@@ -506,7 +509,7 @@ button{
      letter-spacing: 0.02em;
      text-align: center;
      color: #2e2f42;
-     padding-bottom: 8px;
+     margin-bottom: 8px;
  }
 
  .text-future1 {
@@ -645,7 +648,6 @@ button{
      align-items: center;
      justify-content: center;
      width: 264px;
-     height: 428px;
  }
 
  .media-icon-staff {
@@ -704,6 +706,7 @@ button{
      display: flex;
      flex-direction: column;
      padding-top: 32px;
+     padding-bottom: 32px;
      gap: 8px;
  }
 

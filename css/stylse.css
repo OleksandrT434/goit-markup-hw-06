@@ -117,18 +117,10 @@ button{
     fill: #2f2f37;
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
     .burger-btn {
         display: none;
     }
-
-    .nav-list {
-        display: flex;
-        gap: 40px;
-        margin: 0;
-        padding: 0;
-    }
-
     .add {
         font-style: normal;
         display: block;
@@ -369,7 +361,7 @@ button{
        background-color: #404bbf;
    }
 
-   @media screen and (min-width: 786px) {
+   @media screen and (min-width: 768px) {
        .mobile-menu {
            display: none;
        }
@@ -419,6 +411,8 @@ button{
     align-items: center;
     justify-content: center;
     background-size: cover;
+    margin: 0 auto;
+    max-width: 320px;
 }
 
 .button-hero:hover,
@@ -444,7 +438,7 @@ button{
     }
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
     .title-hero {
         font-weight: 700;
         font-size: 56px;
@@ -454,7 +448,6 @@ button{
         height: 120px;
         margin-bottom: 36px;
     }
-
     .hero {
         padding-top: 112px;
         padding-bottom: 112px;
@@ -462,7 +455,8 @@ button{
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/tablet@1jpg.jpg);
-}
+        max-width: 768px;
+}}
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
@@ -473,7 +467,7 @@ button{
                 rgba(46, 47, 66, 0.7)),
             url(../images/tablet@2.jpg);
     }
-}}
+}
 
 @media screen and (min-width: 1158px) {
     .hero {
@@ -486,7 +480,7 @@ button{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 100%;
+        max-width: 1440px;
     }
 }
 
@@ -547,7 +541,7 @@ button{
      }
  }
 
- @media screen and (min-width: 786px) {
+ @media screen and (min-width: 768px) {
      .digital-item {
          width: calc((100% - 24px) / 2);
      }

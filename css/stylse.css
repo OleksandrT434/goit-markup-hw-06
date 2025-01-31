@@ -824,8 +824,6 @@ button{
          flex-wrap: wrap;
          gap: 24px;
          justify-content: center;
-         padding-left: 16px;
-         padding-right: 16px;
      }
  }
 

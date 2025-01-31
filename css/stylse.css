@@ -974,8 +974,6 @@ button{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-user-imput {
@@ -1322,6 +1320,9 @@ button{
     height: 16px;
     flex-shrink: 0;
 }
+.form-wrapper-coment {
+    margin-bottom: 16px;
+}
 @media screen and (min-width: 768px) {
 .modal {
     width: 408px;
@@ -1335,9 +1336,6 @@ button{
 }
 .form-user-imput:focus+.form-user-icon {
     fill: #4d5ae5;
-}
-.form-wrapper-coment {
-    margin-bottom: 16px;
 }
 
 .form-user-label {}

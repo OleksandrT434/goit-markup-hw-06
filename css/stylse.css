@@ -824,6 +824,7 @@ button{
          flex-wrap: wrap;
          gap: 24px;
          justify-content: center;
+         row-gap: 72px;
      }
  }
 
@@ -831,6 +832,9 @@ button{
      .our-portf {
          padding-top: 120px;
          padding-bottom: 120px;
+     }
+     .potrf-list{
+        row-gap: 40px;
      }
 
      .item-list {
@@ -877,11 +881,7 @@ button{
 
 /*----------FOOOOTER______-----------*/
 .end-hero {
-    display: flex;
-    flex-wrap: wrap;
     background: #2e2f42;
-    align-items: center;
-    justify-content: center;
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -922,8 +922,8 @@ button{
 .footer-cont {
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    margin-top: 72px;
+    margin-bottom: 72px;
 }
 
 .second-text {
@@ -1013,7 +1013,7 @@ button{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-footer:hover,
@@ -1061,7 +1061,7 @@ button{
     .text-footer {
         max-width: 264px;
         padding: 0;
-        margin-bottom: 72px;
+
     }
 
     .form-footer-use {
@@ -1090,17 +1090,15 @@ button{
     }
 
     .footer-cont {
-        padding-top: 0;
+        margin-top: 0;
         align-items: flex-start;
-        padding-left: 24px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .footer-usecont {
         flex-wrap: nowrap;
-        width: 1098px;
-        height: 112px;
         margin-left: 0px;
     }
 
@@ -1110,7 +1108,11 @@ button{
     }
 
     .footer-email {
-        padding-left: 80px;
+        margin-left: 80px;
+    }
+    .end-hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 /*         #region MODAL style      */

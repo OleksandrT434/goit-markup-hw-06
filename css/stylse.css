@@ -1105,6 +1105,7 @@ button{
     .footer-cont {
         margin-left: 100px;
         padding-left: 0;
+        margin-bottom: 0;
     }
 
     .footer-email {
